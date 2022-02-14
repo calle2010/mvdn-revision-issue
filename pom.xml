@@ -1,0 +1,17 @@
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>test</groupId>
+  <artifactId>parent</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <revision>1</revision>
+  </properties>
+
+  <modules>
+    <module>child</module>
+  </modules>
+</project>
